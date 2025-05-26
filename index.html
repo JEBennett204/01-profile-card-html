@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake's Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="profile-card" role="main" aria-label="Jake Bennett Profile Card">
+        <img src="img/2024-11-13_09-47-09_340.jpeg" alt="Profile picture of Jake Bennett" class="profile-picture" width="120" height="120" loading="lazy">
+        <h1 tabindex="0">Jake Bennett</h1>
+        <h2 tabindex="0">Web Developer | Soldier | Cybersecurity Professional</h2>
+        <div class="location" aria-label="Location">📍 Boise, ID</div>
+        <section class="about-me" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>Passionate about building interactive and user-friendly web applications.</p>
+            <p>I’m currently pursuing a degree in Cybersecurity with a minor in Japanese Studies and Military Science at Boise State University. I have experience in Python, JavaScript, HTML, and CSS, and I’m passionate about applying these skills in both cybersecurity and software development.</p>
+            <p>My career interests include Information & Cyber Security, Full Stack Development, and Web and Software Architecture. While cybersecurity is my primary passion, I’m equally excited about opportunities in software engineering and development.</p>
+            <p>I also enjoy exploring the intersection of technology, culture, and language—and when I’m not working on tech projects, you’ll probably find me outdoors or learning more about the UAS (Unmanned Aerial Systems) industry.</p>
+        </section>
+        <div class="social-links" aria-label="Social Media Links">
+            <a href="https://www.duolingo.com/profile/JakeBennett1" title="Duolingo" aria-label="Duolingo profile for Jake Bennett"><span>Duolingo</span></a>
+            <a href="https://www.linkedin.com/in/jakebennett1/" title="LinkedIn" aria-label="LinkedIn profile for Jake Bennett"><span>LinkedIn</span></a>
+            <a href="https://www.codecademy.com/profiles/2Radical" title="CodeAcademy" aria-label="CodeAcademy profile for Jake Bennett"><span>CodeAcademy</span></a>
+            <a href="https://github.com/JEBennett204" title="GitHub" aria-label="GitHub profile for Jake Bennett"><span>GitHub</span></a>
+        </div>
+        <section class="contact-section" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Me</h2>
+            <form class="contact-form" action="mailto:jakebennett@u.boisestate.edu" method="POST" enctype="text/plain" aria-label="Contact form">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required aria-required="true"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required aria-required="true"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required aria-required="true"></textarea><br><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <h2>My cat Athena</h2>
+        <img src="img/20250526_130218.jpg" alt="Jake's cat Athena" class="cat-image" width="220" height="220" loading="lazy">
+    </div>
+</body>
+</html>
